@@ -490,9 +490,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Ultimaker
-  #define DEFAULT_Kp 16.50
-  #define DEFAULT_Ki 1.18
-  #define DEFAULT_Kd 57.87
+  #define DEFAULT_Kp 18.93
+  #define DEFAULT_Ki 1.46
+  #define DEFAULT_Kd 61.49
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -993,7 +993,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { 40.5, -3, -2.6 }
+#define NOZZLE_TO_PROBE_OFFSET { 40.5, -4, -2.8 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1510,7 +1510,7 @@
 // Preheat Constants
 #define PREHEAT_1_LABEL       "PETG"
 #define PREHEAT_1_TEMP_HOTEND 245
-#define PREHEAT_1_TEMP_BED     70
+#define PREHEAT_1_TEMP_BED     65
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
 #define PREHEAT_2_LABEL       "PLA"
