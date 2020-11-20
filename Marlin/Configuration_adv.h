@@ -2235,7 +2235,7 @@
   #endif
 
   #if AXIS_IS_TMC(Y)
-    #define Y_CURRENT       800
+    #define Y_CURRENT       900
     #define Y_CURRENT_HOME  Y_CURRENT
     #define Y_MICROSTEPS     16
     #define Y_RSENSE          0.11
@@ -2459,9 +2459,9 @@
    */
   #define HYBRID_THRESHOLD
 
-  #define X_HYBRID_THRESHOLD     201  // [mm/s]
+  #define X_HYBRID_THRESHOLD     251  // [mm/s]
   #define X2_HYBRID_THRESHOLD    100
-  #define Y_HYBRID_THRESHOLD     201
+  #define Y_HYBRID_THRESHOLD     251
   #define Y2_HYBRID_THRESHOLD    100
   #define Z_HYBRID_THRESHOLD       5
   #define Z2_HYBRID_THRESHOLD      5
