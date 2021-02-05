@@ -71,7 +71,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "BS_11-27-20" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "BS_2-04-21" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -490,9 +490,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Ultimaker
-  #define DEFAULT_Kp 12.83
-  #define DEFAULT_Ki 1.42
-  #define DEFAULT_Kd 29.00
+  #define DEFAULT_Kp 10.08
+  #define DEFAULT_Ki 0.93
+  #define DEFAULT_Kd 27.37
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -747,7 +747,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 3200, 837 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 3200, 409 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -993,7 +993,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { 40.5, -4, -2.0 }
+#define NOZZLE_TO_PROBE_OFFSET { -40.5, -2, -2.4 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1100,7 +1100,7 @@
 // @section extruder
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
-#define INVERT_E0_DIR false
+#define INVERT_E0_DIR true
 #define INVERT_E1_DIR false
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false
@@ -1129,8 +1129,8 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 230
-#define Y_BED_SIZE 230
+#define X_BED_SIZE 225
+#define Y_BED_SIZE 225
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
