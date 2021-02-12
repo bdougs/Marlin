@@ -490,9 +490,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Ultimaker
-  #define DEFAULT_Kp 9.59
-  #define DEFAULT_Ki 0.86
-  #define DEFAULT_Kd 26.86
+  #define DEFAULT_Kp 40.34
+  #define DEFAULT_Ki 4.36
+  #define DEFAULT_Kd 93.27
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -547,9 +547,9 @@
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
-  #define DEFAULT_bedKp 153.47
-  #define DEFAULT_bedKi 27.90
-  #define DEFAULT_bedKd 562.77
+  #define DEFAULT_bedKp 154.33
+  #define DEFAULT_bedKi 25.93
+  #define DEFAULT_bedKd 612.29
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
@@ -993,7 +993,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -50, -2, -2.25 }
+#define NOZZLE_TO_PROBE_OFFSET { -50, -2, -2.0 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
