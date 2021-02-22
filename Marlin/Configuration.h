@@ -490,9 +490,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Ultimaker
-  #define DEFAULT_Kp 24.88
-  #define DEFAULT_Ki 2.03
-  #define DEFAULT_Kd 76.28
+  #define DEFAULT_Kp 23.57
+  #define DEFAULT_Ki 1.90
+  #define DEFAULT_Kd 73.30
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -547,9 +547,9 @@
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
-  #define DEFAULT_bedKp 154.33
-  #define DEFAULT_bedKi 25.93
-  #define DEFAULT_bedKd 612.29
+  #define DEFAULT_bedKp 143.22
+  #define DEFAULT_bedKi 23.73
+  #define DEFAULT_bedKd 576.32
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
@@ -754,7 +754,7 @@
  * Override with M203
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 550, 550, 4, 50 }
+#define DEFAULT_MAX_FEEDRATE          { 500, 500, 4, 50 }
 
 //#define LIMITED_MAX_FR_EDITING        // Limit edit via M203 or LCD to DEFAULT_MAX_FEEDRATE * 2
 #if ENABLED(LIMITED_MAX_FR_EDITING)
@@ -993,7 +993,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -42.5, 0, -3.6 }
+#define NOZZLE_TO_PROBE_OFFSET { -42.5, 0, -3.5 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1130,7 +1130,7 @@
 
 // The size of the print bed
 #define X_BED_SIZE 235
-#define Y_BED_SIZE 235
+#define Y_BED_SIZE 230
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
