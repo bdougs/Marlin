@@ -490,9 +490,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Ultimaker
-  #define DEFAULT_Kp 19.48
-  #define DEFAULT_Ki 1.74
-  #define DEFAULT_Kd 54.48
+  #define DEFAULT_Kp 21.79
+  #define DEFAULT_Ki 1.58
+  #define DEFAULT_Kd 74.94
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -993,7 +993,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -44, -2, -2.9 }
+#define NOZZLE_TO_PROBE_OFFSET { -44, -2, -2.8 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1214,7 +1214,7 @@
  * - AUTO_BED_LEVELING_3POINT
  *   Probe 3 arbitrary points on the bed (that aren't collinear)
  *   You specify the XY coordinates of all 3 points.
- *   The result is a single tilted plane. Best for a flat bed.
+ *   The result is a single tilted pide. Best for a flat bed.
  *
  * - AUTO_BED_LEVELING_LINEAR
  *   Probe several points in a grid.
