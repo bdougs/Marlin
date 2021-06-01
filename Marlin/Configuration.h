@@ -490,9 +490,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Ultimaker
-  #define DEFAULT_Kp 21.79
-  #define DEFAULT_Ki 1.58
-  #define DEFAULT_Kd 74.94
+  #define DEFAULT_Kp 26.89
+  #define DEFAULT_Ki 2.86
+  #define DEFAULT_Kd 63.19
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -547,9 +547,9 @@
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
-  #define DEFAULT_bedKp 103.90
-  #define DEFAULT_bedKi 15.83
-  #define DEFAULT_bedKd 454.48
+  #define DEFAULT_bedKp 105.03
+  #define DEFAULT_bedKi 15.54
+  #define DEFAULT_bedKd 473.08
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
